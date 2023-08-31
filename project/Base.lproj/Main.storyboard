@@ -33,6 +33,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="vSb-WX-mZ7" kind="show" id="0Pk-2F-3ck"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,11 +46,12 @@
             <objects>
                 <viewController id="vSb-WX-mZ7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9CB-LG-Vta">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="g7e-Vw-liG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5S5-uE-DZP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V6j-Cd-qR9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -108,6 +108,12 @@
                     <view key="view" contentMode="scaleToFill" id="xU0-yt-9lL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="u1u-g9-tVi">
+                                <rect key="frame" x="121" y="625" width="150" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mSD-uE-za8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
